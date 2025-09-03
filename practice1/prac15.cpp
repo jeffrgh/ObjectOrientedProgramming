@@ -9,9 +9,9 @@ int main()
 	cin >> a;
 
 	int b = 0;
+	int c;
 	while (a != 0)
 	{
-		int c;
 		c = a % 10;
 		b = b * 10 + c;
 		a /= 10;
