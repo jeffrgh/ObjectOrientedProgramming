@@ -9,7 +9,7 @@ def checkPoints(edges):
         adj[u].append(v)
         adj[v].append(u)
 
-    return adj
+    return sorted(adj.items())
 
 
 print(
