@@ -11,7 +11,7 @@ vector<int> maxSlidingWindow(const vector<int> &nums, int k)
 
 	for (int i = 0; i < nums.size(); ++i)
 	{
-		if (!dq.empty() && dq.front() == 1 - k)
+		if (!dq.empty() && dq.front() == i - k)
 		{
 			dq.pop_front();
 		};
